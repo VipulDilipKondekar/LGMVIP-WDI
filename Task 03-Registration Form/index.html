@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<table class="container">
+				<tr>
+					<th>First Name :</th>
+					<td><input type="text" name="fname" placeholder="FirstName" id="fname"></td>
+				</tr>
+
+				<tr>
+					<th>Last Name :</th>
+					<td><input type="text" name="lname" placeholder="LastName" id="lname"></td>
+				</tr>
+				<tr>
+					<th>Email :</th>
+					<td><input type="text" name="email" placeholder="Email" id="email"></td>
+				</tr>
+				<tr>
+					<th>Age :</th>
+					<td><input type="text" name="age" placeholder="Age" id="age"></td>
+				</tr>
+				<tr>
+					<th>Address :</th>
+					<td><input type="text" name="address" placeholder="Address" id="address"></td>
+				</tr>
+				<tr>
+					<th>Gender :</th>
+					<td><input type="text" name="gender" placeholder="Gender" id="gender"></td>
+				</tr>
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Register" onclick="AddRow()"></td>
+				</tr>
+				
+			
+		</table>
+
+		<table id="show">
+			
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Age</th>
+					<th>Address</th>
+					<th>Gender</th>
+				</tr>
+			
+		</table>
+	
+	
+	<script src="script.js"></script>
+</body>
+</html>

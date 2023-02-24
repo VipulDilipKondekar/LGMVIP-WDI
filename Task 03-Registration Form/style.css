@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #FF9500;
+	font-size: 20px;
+	
+}
+.container{
+	border: 2px solid black;
+	cursor: pointer;
+	padding: 20px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#btn{
+	background-color: rgb(146, 44, 44);
+	color: white;
+	display: flex;
+	margin-left: 120px;
+	
+}
+#btn:hover{
+	background-color: #1c1c1c;
+	
+}
+input{
+	font-size: 20px;
+	border: 1px solid #FF9500;
+	border-radius: 15px;
+	padding: 10px 10px 10px 10px;
+	margin: 5px;
+	cursor: pointer;
+	
+}
+#show th {
+	border: 2px solid black;
+	width: 20%;
+	padding: 10px; 
+}
